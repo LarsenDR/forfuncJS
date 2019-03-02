@@ -1,10 +1,6 @@
 # forfuncJS
-Forestry Functions in Javascript
+Forestry Functions in JS
 
-See
+This repository has the forestry functions in Javascript Language.
 
-http://:xoak.snr.missouri.edu 
-
-or
-
-https://oakmissouri.org
+See: http://oak.snr.missouri.edu or https://oakmissouri.org
