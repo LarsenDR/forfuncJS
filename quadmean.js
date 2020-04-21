@@ -11,14 +11,14 @@
  */
 
 quadmean = function(data, wt) {
-    var qmd = 0.0;
-    var num = 0.0;
+    let qmd = 0.0;
+    let num = 0.0;
 	
     for (i = 0; i < dia.length; i++) {
         qmd = qmd + (dia[i]*dia[i])*wt[i];
         num = num + wt[i];
     };
-    var temp = Math.sqrt(qmd/num);
+    let temp = Math.sqrt(qmd/num);
     return temp;
 }
 
@@ -27,7 +27,7 @@ quadmean = function(data, wt) {
 let dia = [8.0, 6.0, 8.0, 5.0, 4.0, 6.0, 7.0];
 let wt = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0];
 let wt2 = [25.0, 25.0, 25.0, 25.0, 25.0, 25.0, 25.0];
-console.log("quadmean imperial =", quadmean(dia, wt, "imperial"));
-console.log("quadmean metric =", quadmean(dia, wt2, "metric"));
+console.log("quadmean wt = 10 =", quadmean(dia, wt, "imperial"));
+console.log("quadmean wt = 25 =", quadmean(dia, wt2, "metric"));
 
 

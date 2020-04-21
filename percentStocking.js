@@ -15,7 +15,7 @@ parameters = function(group) {
      value = [-0.00507,0.01698,0.00307];
   }
   return value;
-;
+
 }
 
 // Function to calculate a quadratic mean
